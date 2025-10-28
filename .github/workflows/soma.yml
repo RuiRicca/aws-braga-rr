@@ -12,6 +12,17 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+   inputs:
+      ambiente: 
+        type: environment
+
+      V1: 
+        type: int
+        required: true
+
+      V2: 
+        type: int
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
