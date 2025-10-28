@@ -7,3 +7,4 @@ password=sys.argv[3]
 print(f"Acesso à base de dados:\n
   Servidor: {server}\n
   Utilizador: {user}\n
+  Pass: {password}")
