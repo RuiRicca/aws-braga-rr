@@ -45,4 +45,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          python soma.py $ {{ github.event.inputs.V1}} $ {{ github.event.inputs.V2}}
+          python soma.py ${{ github.event.inputs.V1}} ${{ github.event.inputs.V2}}
