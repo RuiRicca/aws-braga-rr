@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       ambiente: 
-      type: environment
+        type: environment
 
       nome: 
         default: Rui
