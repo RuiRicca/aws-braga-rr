@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
     inputs: 
       server: 
-      required: true
+        required: true
 
       user: 
-      required: true
+        required: true
 
       password: 
-      required: true
+        required: true
       
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
