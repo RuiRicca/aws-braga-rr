@@ -1,0 +1,7 @@
+# Deve receber dois valores passados por argumento e imprimir a soma dos dois
+
+import sys
+
+v1=int(sys.argv[1])
+v2=int(sys.argv[2])
+print(f"Soma: {v1+v2}")
